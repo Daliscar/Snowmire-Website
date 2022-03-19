@@ -1,0 +1,315 @@
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\TestForPublish.dll.config
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\TestForPublish.dll
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\TestForPublish.pdb
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\roslyn\csc.exe
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\roslyn\csc.exe.config
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\roslyn\csc.rsp
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\roslyn\csi.exe
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\roslyn\csi.exe.config
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\roslyn\csi.rsp
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\roslyn\System.AppContext.dll
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\roslyn\System.Console.dll
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\roslyn\System.IO.Compression.dll
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\roslyn\System.Net.Http.dll
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\roslyn\System.Net.Sockets.dll
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\roslyn\System.ValueTuple.dll
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\roslyn\System.Xml.XPath.dll
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\roslyn\vbc.exe
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\roslyn\vbc.exe.config
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\roslyn\vbc.rsp
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\roslyn\VBCSCompiler.exe
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\Antlr3.Runtime.dll
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\Newtonsoft.Json.dll
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\System.Web.Helpers.dll
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\System.Web.Mvc.dll
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\System.Web.Optimization.dll
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\System.Web.Razor.dll
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\System.Web.WebPages.Deployment.dll
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\System.Web.WebPages.dll
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\System.Web.WebPages.Razor.dll
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\WebGrease.dll
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\System.Web.Helpers.xml
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\System.Web.Mvc.xml
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\System.Web.Optimization.xml
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\System.Web.Razor.xml
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\System.Web.WebPages.xml
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\System.Web.WebPages.Deployment.xml
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\System.Web.WebPages.Razor.xml
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\Newtonsoft.Json.xml
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\Antlr3.Runtime.pdb
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\obj\Release\TestForPublish.csproj.CoreCompileInputs.cache
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\obj\Release\TestForPublish.csproj.CopyComplete
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\obj\Release\TestForPublish.dll
+C:\Users\sirsa\source\repos\TestForPublish - Copy (2)\TestForPublish\obj\Release\TestForPublish.pdb
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\TestForPublish.dll.config
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\TestForPublish.dll
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\TestForPublish.pdb
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\roslyn\csc.exe
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\roslyn\csc.exe.config
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\roslyn\csc.rsp
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\roslyn\csi.exe
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\roslyn\csi.exe.config
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\roslyn\csi.rsp
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\roslyn\System.AppContext.dll
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\roslyn\System.Console.dll
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\roslyn\System.IO.Compression.dll
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\roslyn\System.Net.Http.dll
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\roslyn\System.Net.Sockets.dll
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\roslyn\System.ValueTuple.dll
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\roslyn\System.Xml.XPath.dll
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\roslyn\vbc.exe
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\roslyn\vbc.exe.config
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\roslyn\vbc.rsp
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\roslyn\VBCSCompiler.exe
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\Antlr3.Runtime.dll
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\Newtonsoft.Json.dll
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\System.Web.Helpers.dll
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\System.Web.Mvc.dll
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\System.Web.Optimization.dll
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\System.Web.Razor.dll
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\System.Web.WebPages.Deployment.dll
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\System.Web.WebPages.dll
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\System.Web.WebPages.Razor.dll
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\WebGrease.dll
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\System.Web.Helpers.xml
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\System.Web.Mvc.xml
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\System.Web.Optimization.xml
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\System.Web.Razor.xml
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\System.Web.WebPages.xml
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\System.Web.WebPages.Deployment.xml
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\System.Web.WebPages.Razor.xml
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\Newtonsoft.Json.xml
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\Antlr3.Runtime.pdb
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\obj\Release\TestForPublish.csproj.AssemblyReference.cache
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\obj\Release\TestForPublish.csproj.CoreCompileInputs.cache
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\obj\Release\TestForPublish.csproj.CopyComplete
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\obj\Release\TestForPublish.dll
+C:\Users\sirsa\source\repos\TestForPublish\TestForPublish\obj\Release\TestForPublish.pdb
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\TestForPublish.dll.config
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\TestForPublish.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\TestForPublish.pdb
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\roslyn\csc.exe
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\roslyn\csc.exe.config
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\roslyn\csc.rsp
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\roslyn\csi.exe
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\roslyn\csi.exe.config
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\roslyn\csi.rsp
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\roslyn\System.AppContext.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\roslyn\System.Console.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\roslyn\System.IO.Compression.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\roslyn\System.Net.Http.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\roslyn\System.Net.Sockets.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\roslyn\System.ValueTuple.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\roslyn\System.Xml.XPath.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\roslyn\vbc.exe
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\roslyn\vbc.exe.config
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\roslyn\vbc.rsp
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\roslyn\VBCSCompiler.exe
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\Antlr3.Runtime.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\Newtonsoft.Json.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\System.Web.Helpers.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\System.Web.Mvc.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\System.Web.Optimization.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\System.Web.Razor.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\System.Web.WebPages.Deployment.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\System.Web.WebPages.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\System.Web.WebPages.Razor.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\WebGrease.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\System.Web.Helpers.xml
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\System.Web.Mvc.xml
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\System.Web.Optimization.xml
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\System.Web.Razor.xml
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\System.Web.WebPages.xml
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\System.Web.WebPages.Deployment.xml
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\System.Web.WebPages.Razor.xml
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\Newtonsoft.Json.xml
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\Antlr3.Runtime.pdb
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\obj\Release\TestForPublish.csproj.AssemblyReference.cache
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\obj\Release\TestForPublish.csproj.CoreCompileInputs.cache
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\obj\Release\TestForPublish.csproj.CopyComplete
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\obj\Release\TestForPublish.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew\TestForPublish\obj\Release\TestForPublish.pdb
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\TestForPublish.dll.config
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\TestForPublish.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\TestForPublish.pdb
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\roslyn\csc.exe
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\roslyn\csc.exe.config
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\roslyn\csc.rsp
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\roslyn\csi.exe
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\roslyn\csi.exe.config
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\roslyn\csi.rsp
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\roslyn\System.AppContext.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\roslyn\System.Console.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\roslyn\System.IO.Compression.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\roslyn\System.Net.Http.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\roslyn\System.Net.Sockets.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\roslyn\System.ValueTuple.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\roslyn\System.Xml.XPath.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\roslyn\vbc.exe
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\roslyn\vbc.exe.config
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\roslyn\vbc.rsp
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\roslyn\VBCSCompiler.exe
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\Antlr3.Runtime.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\Newtonsoft.Json.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\System.Web.Helpers.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\System.Web.Mvc.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\System.Web.Optimization.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\System.Web.Razor.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\System.Web.WebPages.Deployment.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\System.Web.WebPages.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\System.Web.WebPages.Razor.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\WebGrease.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\System.Web.Helpers.xml
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\System.Web.Mvc.xml
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\System.Web.Optimization.xml
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\System.Web.Razor.xml
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\System.Web.WebPages.xml
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\System.Web.WebPages.Deployment.xml
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\System.Web.WebPages.Razor.xml
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\Newtonsoft.Json.xml
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\Antlr3.Runtime.pdb
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\obj\Release\TestForPublish.csproj.AssemblyReference.cache
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\obj\Release\TestForPublish.csproj.CoreCompileInputs.cache
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\obj\Release\TestForPublish.csproj.CopyComplete
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\obj\Release\TestForPublish.dll
+C:\Users\sirsa\source\repos\TestForPublish - BranchNew 1.0.2\TestForPublish\obj\Release\TestForPublish.pdb
