@@ -54,7 +54,10 @@ F:\GITHUB Repositories\Snowmire-Website\Snowmire\TestForPublish\bin\Antlr3.Runti
 F:\GITHUB Repositories\Snowmire-Website\Snowmire\TestForPublish\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 F:\GITHUB Repositories\Snowmire-Website\Snowmire\TestForPublish\bin\Microsoft.Web.Infrastructure.dll
 F:\GITHUB Repositories\Snowmire-Website\Snowmire\TestForPublish\bin\Newtonsoft.Json.dll
+F:\GITHUB Repositories\Snowmire-Website\Snowmire\TestForPublish\bin\System.Net.Http.Formatting.dll
 F:\GITHUB Repositories\Snowmire-Website\Snowmire\TestForPublish\bin\System.Web.Helpers.dll
+F:\GITHUB Repositories\Snowmire-Website\Snowmire\TestForPublish\bin\System.Web.Http.dll
+F:\GITHUB Repositories\Snowmire-Website\Snowmire\TestForPublish\bin\System.Web.Http.WebHost.dll
 F:\GITHUB Repositories\Snowmire-Website\Snowmire\TestForPublish\bin\System.Web.Mvc.dll
 F:\GITHUB Repositories\Snowmire-Website\Snowmire\TestForPublish\bin\System.Web.Optimization.dll
 F:\GITHUB Repositories\Snowmire-Website\Snowmire\TestForPublish\bin\System.Web.Razor.dll
@@ -62,6 +65,9 @@ F:\GITHUB Repositories\Snowmire-Website\Snowmire\TestForPublish\bin\System.Web.W
 F:\GITHUB Repositories\Snowmire-Website\Snowmire\TestForPublish\bin\System.Web.WebPages.dll
 F:\GITHUB Repositories\Snowmire-Website\Snowmire\TestForPublish\bin\System.Web.WebPages.Razor.dll
 F:\GITHUB Repositories\Snowmire-Website\Snowmire\TestForPublish\bin\WebGrease.dll
+F:\GITHUB Repositories\Snowmire-Website\Snowmire\TestForPublish\bin\System.Net.Http.Formatting.xml
+F:\GITHUB Repositories\Snowmire-Website\Snowmire\TestForPublish\bin\System.Web.Http.xml
+F:\GITHUB Repositories\Snowmire-Website\Snowmire\TestForPublish\bin\System.Web.Http.WebHost.xml
 F:\GITHUB Repositories\Snowmire-Website\Snowmire\TestForPublish\bin\System.Web.Helpers.xml
 F:\GITHUB Repositories\Snowmire-Website\Snowmire\TestForPublish\bin\System.Web.Mvc.xml
 F:\GITHUB Repositories\Snowmire-Website\Snowmire\TestForPublish\bin\System.Web.Optimization.xml
