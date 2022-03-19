@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 
-namespace TestForPublish
+namespace SnowmireMVC
 {
     public class FilterConfig
     {

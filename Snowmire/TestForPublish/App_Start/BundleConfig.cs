@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace TestForPublish
+namespace SnowmireMVC
 {
     public class BundleConfig
     {

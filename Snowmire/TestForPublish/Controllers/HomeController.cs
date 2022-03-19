@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace TestForPublish.Controllers
+namespace SnowmireMVC.Controllers
 {
     public class HomeController : Controller
     {
