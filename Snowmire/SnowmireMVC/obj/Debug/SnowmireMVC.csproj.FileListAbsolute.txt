@@ -82,3 +82,4 @@ F:\GITHUB Repositories\Snowmire-Website\Snowmire\TestForPublish\obj\Debug\Snowmi
 F:\GITHUB Repositories\Snowmire-Website\Snowmire\TestForPublish\obj\Debug\SnowmireMVC.csproj.CopyComplete
 F:\GITHUB Repositories\Snowmire-Website\Snowmire\TestForPublish\obj\Debug\SnowmireMVC.dll
 F:\GITHUB Repositories\Snowmire-Website\Snowmire\TestForPublish\obj\Debug\SnowmireMVC.pdb
+F:\GITHUB Repositories\Snowmire-Website\Snowmire\TestForPublish\obj\Debug\SnowmireMVC.csproj.AssemblyReference.cache
