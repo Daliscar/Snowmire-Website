@@ -4,8 +4,8 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 -->
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <_PublishTargetUrl>C:\Users\sirsa\OneDrive\Desktop\TestForPublish2</_PublishTargetUrl>
-    <History>True|2022-03-13T17:03:59.7499567Z;True|2022-03-13T18:49:49.8380122+02:00;True|2022-03-13T18:44:46.2256103+02:00;True|2022-03-13T14:34:48.1111036+02:00;True|2022-03-13T11:37:56.6816351+02:00;True|2022-03-13T01:13:50.8625157+02:00;True|2022-03-12T22:49:30.4804866+02:00;</History>
+    <_PublishTargetUrl>C:\Users\sirsa\OneDrive\Desktop\SnowmireMVC-API</_PublishTargetUrl>
+    <History>True|2022-03-20T00:00:19.8274250Z;False|2022-03-20T01:59:35.8069753+02:00;True|2022-03-13T19:03:59.7499567+02:00;True|2022-03-13T18:49:49.8380122+02:00;True|2022-03-13T18:44:46.2256103+02:00;True|2022-03-13T14:34:48.1111036+02:00;True|2022-03-13T11:37:56.6816351+02:00;True|2022-03-13T01:13:50.8625157+02:00;True|2022-03-12T22:49:30.4804866+02:00;</History>
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/Antlr3.Runtime.dll">
@@ -170,8 +170,23 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
     <File Include="bin/roslyn/VBCSCompiler.exe.config">
       <publishTime>08/08/2018 12:18:16</publishTime>
     </File>
+    <File Include="bin/SnowmireMVC.dll">
+      <publishTime>03/20/2022 02:00:18</publishTime>
+    </File>
+    <File Include="bin/SnowmireMVC.pdb">
+      <publishTime>03/20/2022 02:00:18</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>11/28/2018 12:00:36</publishTime>
+    </File>
     <File Include="bin/System.Web.Helpers.dll">
       <publishTime>11/28/2018 12:04:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>11/28/2018 12:01:00</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>11/28/2018 12:02:56</publishTime>
     </File>
     <File Include="bin/System.Web.Mvc.dll">
       <publishTime>11/28/2018 11:59:46</publishTime>
@@ -285,7 +300,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>03/13/2022 15:05:06</publishTime>
     </File>
     <File Include="Content/bootstrap.css">
-      <publishTime>03/13/2022 15:05:02</publishTime>
+      <publishTime>03/16/2022 21:33:34</publishTime>
     </File>
     <File Include="Content/bootstrap.css.map">
       <publishTime>03/13/2022 15:05:01</publishTime>
@@ -308,11 +323,29 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
     <File Include="Content/bootstrap.rtl.min.css.map">
       <publishTime>03/13/2022 15:04:50</publishTime>
     </File>
+    <File Include="Content/Discord-Logo-Color.svg">
+      <publishTime>03/16/2022 23:11:04</publishTime>
+    </File>
+    <File Include="Content/Draven.png">
+      <publishTime>03/13/2022 23:56:29</publishTime>
+    </File>
+    <File Include="Content/icons8-secured-letter-64.png">
+      <publishTime>03/19/2022 14:35:19</publishTime>
+    </File>
+    <File Include="Content/icons8-secured-letter-96.png">
+      <publishTime>03/19/2022 14:35:19</publishTime>
+    </File>
+    <File Include="Content/Screenshot_6.png">
+      <publishTime>03/18/2022 19:27:08</publishTime>
+    </File>
     <File Include="Content/Site.css">
-      <publishTime>03/13/2022 18:49:26</publishTime>
+      <publishTime>03/18/2022 22:49:50</publishTime>
+    </File>
+    <File Include="Content/Skull-Icon3.png">
+      <publishTime>03/17/2022 23:43:47</publishTime>
     </File>
     <File Include="favicon.ico">
-      <publishTime>03/12/2022 22:48:56</publishTime>
+      <publishTime>03/17/2022 23:42:56</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.eot">
       <publishTime>03/12/2022 22:48:58</publishTime>
@@ -330,7 +363,16 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>03/12/2022 22:48:58</publishTime>
     </File>
     <File Include="Global.asax">
-      <publishTime>03/12/2022 22:48:56</publishTime>
+      <publishTime>03/19/2022 21:05:04</publishTime>
+    </File>
+    <File Include="Scripts/babylon.gui.min.js">
+      <publishTime>03/18/2022 18:39:17</publishTime>
+    </File>
+    <File Include="Scripts/babylon.js">
+      <publishTime>03/18/2022 18:39:20</publishTime>
+    </File>
+    <File Include="Scripts/babylonjs.loaders.min.js">
+      <publishTime>03/18/2022 18:39:14</publishTime>
     </File>
     <File Include="Scripts/bootstrap.bundle.js">
       <publishTime>03/13/2022 15:04:48</publishTime>
@@ -428,6 +470,9 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
     <File Include="Scripts/modernizr-2.8.3.js">
       <publishTime>03/12/2022 22:49:01</publishTime>
     </File>
+    <File Include="Scripts/pep.min.js">
+      <publishTime>03/18/2022 18:32:14</publishTime>
+    </File>
     <File Include="Scripts/popper-utils.js">
       <publishTime>03/13/2022 15:03:27</publishTime>
     </File>
@@ -456,7 +501,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>03/13/2022 15:03:25</publishTime>
     </File>
     <File Include="Scripts/renderBabylonJS.js">
-      <publishTime>03/13/2022 11:35:41</publishTime>
+      <publishTime>03/14/2022 23:26:59</publishTime>
     </File>
     <File Include="Scripts/src/index.js">
       <publishTime>03/13/2022 15:03:25</publishTime>
@@ -678,28 +723,31 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>03/13/2022 01:03:25</publishTime>
     </File>
     <File Include="Views/Home/Contact.cshtml">
-      <publishTime>03/13/2022 11:54:30</publishTime>
+      <publishTime>03/19/2022 14:45:05</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>03/13/2022 18:56:28</publishTime>
+      <publishTime>03/18/2022 22:59:49</publishTime>
     </File>
     <File Include="Views/Home/Partial/_ModelPartial.cshtml">
-      <publishTime>03/13/2022 15:16:25</publishTime>
+      <publishTime>03/18/2022 18:42:18</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
       <publishTime>03/12/2022 22:48:56</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>03/13/2022 18:36:32</publishTime>
+      <publishTime>03/19/2022 13:59:23</publishTime>
+    </File>
+    <File Include="Views/Shared/_WorkInProgress.cshtml">
+      <publishTime>03/18/2022 23:09:47</publishTime>
     </File>
     <File Include="Views/Web.config">
-      <publishTime>03/12/2022 22:48:56</publishTime>
+      <publishTime>03/19/2022 21:05:04</publishTime>
     </File>
     <File Include="Views/_ViewStart.cshtml">
       <publishTime>03/12/2022 22:48:56</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>03/13/2022 18:44:45</publishTime>
+      <publishTime>03/20/2022 02:00:18</publishTime>
     </File>
   </ItemGroup>
 </Project>
