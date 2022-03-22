@@ -62,3 +62,5 @@ F:\GITHUB Repositories\Snowmire-Website\Snowmire\MyAccount\bin\EntityFramework.d
 F:\GITHUB Repositories\Snowmire-Website\Snowmire\MyAccount\bin\EntityFramework.SqlServer.dll
 F:\GITHUB Repositories\Snowmire-Website\Snowmire\MyAccount\bin\EntityFramework.xml
 F:\GITHUB Repositories\Snowmire-Website\Snowmire\MyAccount\bin\EntityFramework.SqlServer.xml
+F:\GITHUB Repositories\Snowmire-Website\Snowmire\MyAccount\obj\Debug\MyAccount.Migrations.initial.resources
+F:\GITHUB Repositories\Snowmire-Website\Snowmire\MyAccount\obj\Debug\MyAccount.csproj.GenerateResource.cache

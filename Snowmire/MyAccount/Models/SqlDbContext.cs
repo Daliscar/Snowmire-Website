@@ -9,7 +9,7 @@ namespace MyAccount.Models
 {
     public class SqlDbContext : DbContext
     {
-        public SqlDbContext() : base("SqlConnection")
+        public SqlDbContext() : base("MyAccountContext")
         {
         }
         public DbSet<User> Users { get; set; }
