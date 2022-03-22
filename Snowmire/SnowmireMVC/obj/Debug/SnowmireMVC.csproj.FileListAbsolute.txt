@@ -172,3 +172,6 @@ F:\GITHUB Repositories\Snowmire-Website\Snowmire\SnowmireMVC\obj\Debug\SnowmireM
 F:\GITHUB Repositories\Snowmire-Website\Snowmire\SnowmireMVC\obj\Debug\SnowmireMVC.dll
 F:\GITHUB Repositories\Snowmire-Website\Snowmire\SnowmireMVC\obj\Debug\SnowmireMVC.pdb
 F:\GITHUB Repositories\Snowmire-Website\Snowmire\SnowmireMVC\obj\Debug\SnowmireMVC.csproj.AssemblyReference.cache
+F:\GITHUB Repositories\Snowmire-Website\Snowmire\SnowmireMVC\bin\MyAccount.dll
+F:\GITHUB Repositories\Snowmire-Website\Snowmire\SnowmireMVC\bin\MyAccount.pdb
+F:\GITHUB Repositories\Snowmire-Website\Snowmire\SnowmireMVC\bin\MyAccount.dll.config
