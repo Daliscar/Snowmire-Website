@@ -8,6 +8,7 @@ using System.Web;
 using System.Web.Mvc;
 using SnowmireMVC.BusinessLayer;
 using SnowmireMVC.Models;
+using MyAccount.Infrastructure;
 
 namespace SnowmireMVC.Controllers
 {

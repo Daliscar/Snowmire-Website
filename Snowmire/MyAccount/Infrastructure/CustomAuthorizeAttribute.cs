@@ -44,8 +44,8 @@ namespace MyAccount.Infrastructure
             filterContext.Result = new RedirectToRouteResult(
                new RouteValueDictionary
                {
-                    { "controller", "Home" },
-                    { "action", "UnAuthorized" }
+                    { "controller", "Account" },
+                    { "action", "Login" }
                });
         }
     }

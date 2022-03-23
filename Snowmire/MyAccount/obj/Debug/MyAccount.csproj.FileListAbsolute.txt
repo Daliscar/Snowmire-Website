@@ -1,4 +1,3 @@
-F:\GITHUB Repositories\Snowmire-Website\Snowmire\MyAccount\bin\MyAccount.dll.config
 F:\GITHUB Repositories\Snowmire-Website\Snowmire\MyAccount\bin\MyAccount.dll
 F:\GITHUB Repositories\Snowmire-Website\Snowmire\MyAccount\bin\MyAccount.pdb
 F:\GITHUB Repositories\Snowmire-Website\Snowmire\MyAccount\bin\roslyn\csc.exe

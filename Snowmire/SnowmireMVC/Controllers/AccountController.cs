@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using MyAccount.Models;
 
-namespace MyAccount.Controllers
+namespace SnowmireMVC.Controllers
 {
     public class AccountController : Controller
     {

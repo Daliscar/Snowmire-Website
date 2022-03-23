@@ -139,6 +139,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="BusinessLayer\SchoolInitializer.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\APIDashboardController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
@@ -332,6 +333,9 @@
     <Content Include="Views\APIDashboard\Details.cshtml" />
     <Content Include="Views\APIDashboard\Edit.cshtml" />
     <Content Include="Views\APIDashboard\Index.cshtml" />
+    <Content Include="Views\Home\UnAuthorized.cshtml" />
+    <Content Include="Views\Account\Login.cshtml" />
+    <Content Include="Views\Shared\_LoginPartial.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

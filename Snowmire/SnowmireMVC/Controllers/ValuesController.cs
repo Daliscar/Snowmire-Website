@@ -9,6 +9,7 @@ using Newtonsoft.Json;
 using System.Web.Script.Serialization;
 using System.Web.Http.Results;
 using SnowmireMVC.Models;
+using MyAccount.Infrastructure;
 
 namespace SnowmireMVC.Controllers
 {
@@ -16,6 +17,7 @@ namespace SnowmireMVC.Controllers
     {
         private SchoolContext db = new SchoolContext();
         // GET api/values
+        [CustomAuthorize("SuperAdmin")]
         public HttpResponseMessage Get()
         {
             JavaScriptSerializer serializer = new JavaScriptSerializer();
@@ -35,6 +37,7 @@ namespace SnowmireMVC.Controllers
         }
 
         // GET api/values/5
+        [CustomAuthorize("SuperAdmin")]
         public HttpResponseMessage Get(int id)
         {
             JavaScriptSerializer serializer = new JavaScriptSerializer();
