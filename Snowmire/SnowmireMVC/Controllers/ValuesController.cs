@@ -17,7 +17,6 @@ namespace SnowmireMVC.Controllers
     {
         private SchoolContext db = new SchoolContext();
         // GET api/values
-        [CustomAuthorize("SuperAdmin")]
         public HttpResponseMessage Get()
         {
             JavaScriptSerializer serializer = new JavaScriptSerializer();
@@ -37,7 +36,6 @@ namespace SnowmireMVC.Controllers
         }
 
         // GET api/values/5
-        [CustomAuthorize("SuperAdmin")]
         public HttpResponseMessage Get(int id)
         {
             JavaScriptSerializer serializer = new JavaScriptSerializer();
@@ -59,16 +57,19 @@ namespace SnowmireMVC.Controllers
         }
 
         // POST api/values
+        [CustomAuthorize("SuperAdmin")]
         public void Post([FromBody] string value)
         {
         }
 
         // PUT api/values/5
+        [CustomAuthorize("SuperAdmin")]
         public void Put(int id, [FromBody] string value)
         {
         }
 
         // DELETE api/values/5
+        [CustomAuthorize("SuperAdmin")]
         public void Delete(int id)
         {
         }

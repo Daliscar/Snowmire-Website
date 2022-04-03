@@ -29,7 +29,9 @@ namespace SnowmireMVC.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
+
             Student student = db.Students.Find(id);
+
             if (student == null)
             {
                 return HttpNotFound();
@@ -38,6 +40,7 @@ namespace SnowmireMVC.Controllers
         }
 
         // GET: APIDashboard/Create
+        [CustomAuthorize("Admin","SuperAdmin")]
         public ActionResult Create()
         {
             return View();
@@ -48,6 +51,7 @@ namespace SnowmireMVC.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [CustomAuthorize("Admin", "SuperAdmin")]
         public ActionResult Create([Bind(Include = "ID,Name,Title,Level")] Student student)
         {
             if (ModelState.IsValid)
@@ -61,6 +65,7 @@ namespace SnowmireMVC.Controllers
         }
 
         // GET: APIDashboard/Edit/5
+        [CustomAuthorize("Admin", "SuperAdmin")]
         public ActionResult Edit(int? id)
         {
             if (id == null)
@@ -80,6 +85,7 @@ namespace SnowmireMVC.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [CustomAuthorize("Admin", "SuperAdmin")]
         public ActionResult Edit([Bind(Include = "ID,Name,Title,Level")] Student student)
         {
             if (ModelState.IsValid)
@@ -92,6 +98,7 @@ namespace SnowmireMVC.Controllers
         }
 
         // GET: APIDashboard/Delete/5
+        [CustomAuthorize("Admin", "SuperAdmin")]
         public ActionResult Delete(int? id)
         {
             if (id == null)
@@ -109,6 +116,7 @@ namespace SnowmireMVC.Controllers
         // POST: APIDashboard/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [CustomAuthorize("Admin", "SuperAdmin")]
         public ActionResult DeleteConfirmed(int id)
         {
             Student student = db.Students.Find(id);

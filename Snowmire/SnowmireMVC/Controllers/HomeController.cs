@@ -15,7 +15,7 @@ namespace SnowmireMVC.Controllers
             return View();
         }
 
-        [CustomAuthorize("Admin", "SuperAdmin")]
+        [CustomAuthorize("SuperAdmin")]
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
@@ -23,7 +23,7 @@ namespace SnowmireMVC.Controllers
             return View();
         }
 
-        [CustomAuthorize("SuperAdmin")]
+        [CustomAuthorize("User")]
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";

@@ -140,6 +140,7 @@ F:\GITHUB Repositories\Snowmire-Website\Snowmire\SnowmireMVC\bin\EntityFramework
 F:\GITHUB Repositories\Snowmire-Website\Snowmire\SnowmireMVC\bin\EntityFramework.SqlServer.dll
 F:\GITHUB Repositories\Snowmire-Website\Snowmire\SnowmireMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 F:\GITHUB Repositories\Snowmire-Website\Snowmire\SnowmireMVC\bin\Microsoft.Web.Infrastructure.dll
+F:\GITHUB Repositories\Snowmire-Website\Snowmire\SnowmireMVC\bin\MyAccount.dll
 F:\GITHUB Repositories\Snowmire-Website\Snowmire\SnowmireMVC\bin\Newtonsoft.Json.dll
 F:\GITHUB Repositories\Snowmire-Website\Snowmire\SnowmireMVC\bin\System.Net.Http.Formatting.dll
 F:\GITHUB Repositories\Snowmire-Website\Snowmire\SnowmireMVC\bin\System.Web.Helpers.dll
@@ -152,6 +153,7 @@ F:\GITHUB Repositories\Snowmire-Website\Snowmire\SnowmireMVC\bin\System.Web.WebP
 F:\GITHUB Repositories\Snowmire-Website\Snowmire\SnowmireMVC\bin\System.Web.WebPages.dll
 F:\GITHUB Repositories\Snowmire-Website\Snowmire\SnowmireMVC\bin\System.Web.WebPages.Razor.dll
 F:\GITHUB Repositories\Snowmire-Website\Snowmire\SnowmireMVC\bin\WebGrease.dll
+F:\GITHUB Repositories\Snowmire-Website\Snowmire\SnowmireMVC\bin\MyAccount.pdb
 F:\GITHUB Repositories\Snowmire-Website\Snowmire\SnowmireMVC\bin\EntityFramework.xml
 F:\GITHUB Repositories\Snowmire-Website\Snowmire\SnowmireMVC\bin\EntityFramework.SqlServer.xml
 F:\GITHUB Repositories\Snowmire-Website\Snowmire\SnowmireMVC\bin\System.Net.Http.Formatting.xml
@@ -167,10 +169,8 @@ F:\GITHUB Repositories\Snowmire-Website\Snowmire\SnowmireMVC\bin\System.Web.WebP
 F:\GITHUB Repositories\Snowmire-Website\Snowmire\SnowmireMVC\bin\Newtonsoft.Json.xml
 F:\GITHUB Repositories\Snowmire-Website\Snowmire\SnowmireMVC\bin\Antlr3.Runtime.pdb
 F:\GITHUB Repositories\Snowmire-Website\Snowmire\SnowmireMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\GITHUB Repositories\Snowmire-Website\Snowmire\SnowmireMVC\obj\Debug\SnowmireMVC.csproj.AssemblyReference.cache
 F:\GITHUB Repositories\Snowmire-Website\Snowmire\SnowmireMVC\obj\Debug\SnowmireMVC.csproj.CoreCompileInputs.cache
 F:\GITHUB Repositories\Snowmire-Website\Snowmire\SnowmireMVC\obj\Debug\SnowmireMVC.csproj.CopyComplete
 F:\GITHUB Repositories\Snowmire-Website\Snowmire\SnowmireMVC\obj\Debug\SnowmireMVC.dll
 F:\GITHUB Repositories\Snowmire-Website\Snowmire\SnowmireMVC\obj\Debug\SnowmireMVC.pdb
-F:\GITHUB Repositories\Snowmire-Website\Snowmire\SnowmireMVC\obj\Debug\SnowmireMVC.csproj.AssemblyReference.cache
-F:\GITHUB Repositories\Snowmire-Website\Snowmire\SnowmireMVC\bin\MyAccount.dll
-F:\GITHUB Repositories\Snowmire-Website\Snowmire\SnowmireMVC\bin\MyAccount.pdb

@@ -4,13 +4,14 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Snowmire</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="~/Content/Skull-Icon3.png" class="m-2 align-self-start"width="24" height="24"/>Snowmire</a>
+            <a class="navbar-brand" href="/"><img src="~/Content/Skull-Icon3.png" class="m-2 align-self-start" width="24" height="24" />Snowmire</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -26,7 +27,10 @@
                         @Html.ActionLink("Contact", "Contact", new { controller = "Home" }, new { @class = "nav-link active" })
                     </li>
                     <li class="nav-item">
-                        @Html.ActionLink("API", "values", new { controller = "api" }, new { @class = "nav-link active" })
+                        @Html.ActionLink("API", "values", new { controller = "api" }, new { @class = "nav-link active text-warning fw-bold" })
+                    </li>
+                    <li class="nav-item">
+                        @Html.ActionLink("API Dashboard", "Index", new { controller = "ApiDashboard" }, new { @class = "nav-link active text-warning fw-bold" })
                     </li>
                 </ul>
                 @Html.Partial("_LoginPartial")
@@ -34,15 +38,15 @@
         </div>
     </nav>
     <div class="container-fluid body-content">
-            @RenderBody()
+        @RenderBody()
 
-            <footer class="text-center col-md-12">
-                <hr />
-                <p>
-                    &copy; @DateTime.Now.Year - By Andrei Mosin - Most of the content of this site is bound to change. And code refactored.
-                    <img src="~/Content/Draven.png" style="width:32px; height:32px;" />
-                </p>
-            </footer>
+        <footer class="text-center col-md-12">
+            <hr />
+            <p>
+                &copy; @DateTime.Now.Year - By Andrei Mosin - Most of the content of this site is bound to change. And code refactored.
+                <img src="~/Content/Draven.png" style="width:32px; height:32px;" />
+            </p>
+        </footer>
     </div>
 
     @Scripts.Render("~/bundles/jquery")

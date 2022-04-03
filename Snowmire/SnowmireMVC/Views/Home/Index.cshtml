@@ -1,7 +1,9 @@
 ﻿@{
     ViewBag.Title = "Home Page";
 }
+<!-- Modal -->
 <header class="bg-dark py-5">
+    @Html.Partial("Partial/_AccountInfoPartial")
     <div class="container px-5">
         <div class="row gx-5 align-items-center justify-content-center">
             <div class="col-lg-8 col-xl-7 col-xxl-6">
@@ -13,11 +15,43 @@
                         <a class="btn btn-outline-light btn-lg px-4" href="#!">Video Games</a>
                     </div>
                 </div>
+                <div class="card bg-light rounded-3 bg-opacity-25">
+                    <div class="card-header bg-light rounded-3 bg-opacity-50 fw-bolder text-center">Usernames and Passwords</div>
+                    <div class="card-body">
+                        <div class="row justify-content-center">
+
+                            <div role="button" class="col-5 card mx-1 my-2 fw-bolder text-danger text-center bg-dark" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="InformationModal('SA')">Super Admin</div>
+                            <div role="button" class="col-5 card mx-1 my-2 fw-bolder text-warning text-center bg-dark" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="InformationModal('A')">Admin</div>
+                            <div role="button" class="col-5 card mx-1 my-2 fw-bolder text-primary text-center bg-dark" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="InformationModal('SU')" >Super User</div>
+                            <div role="button" class="col-5 card mx-1 my-2 fw-bolder text-white-50 text-center bg-dark" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="InformationModal('U')" >User</div>
+                            @*move this*@
+                            <script>
+                                function InformationModal(role) {
+                                    switch (role) {
+                                        case "SA":
+                                            document.getElementById("modalBody").innerHTML = "<p>Ask Andrei</p>";
+                                            break;
+                                        case "A":
+                                            document.getElementById("modalBody").innerHTML = "<p>Ask Andrei</p>";
+                                            break;
+                                        case "SU":
+                                            document.getElementById("modalBody").innerHTML = "<p>Ask Andrei</p>";
+                                            break;
+                                        default:
+                                            document.getElementById("modalBody").innerHTML = "<p>username: Basic</p> <p>password: User</p>";
+                                    }
+                                }
+                            </script>
+                        </div>
+                    </div>
+
+                </div>
             </div>
             <div class="col-xl-5 col-xxl-6 d-block d-xl-block text-center img-fluid rounded-3">@Html.Partial("Partial/_ModelPartial")</div>
         </div>
     </div>
 </header>
+
 @Html.Partial("_WorkInProgress")
 <!--<section class="py-5" id="features">
     <div class="container px-5 my-5">
