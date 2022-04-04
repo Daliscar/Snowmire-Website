@@ -98,7 +98,7 @@ namespace SnowmireMVC.Controllers
         }
 
         // GET: APIDashboard/Delete/5
-        [CustomAuthorize("Admin", "SuperAdmin")]
+        [CustomAuthorize("SuperAdmin")]
         public ActionResult Delete(int? id)
         {
             if (id == null)
@@ -116,7 +116,7 @@ namespace SnowmireMVC.Controllers
         // POST: APIDashboard/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        [CustomAuthorize("Admin", "SuperAdmin")]
+        [CustomAuthorize("SuperAdmin")]
         public ActionResult DeleteConfirmed(int id)
         {
             Student student = db.Students.Find(id);

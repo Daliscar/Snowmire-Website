@@ -1,6 +1,7 @@
 ﻿function RenderBabylonJs() {
     const canvas = document.getElementById("renderCanvas"); // Get the canvas element
     const engine = new BABYLON.Engine(canvas, true, null, true); // Generate the BABYLON 3D engine
+    var currentPage = 1;
 
     // Add your code here matching the playground format
     var createScene = function () {
@@ -8,10 +9,10 @@
         //#region MESHES JSON
         var meshesTEXT = '{ "meshNumber" : [' +
             '{"name" : "house_Cube", "path" : "https://snowmireawscdn.s3.eu-central-1.amazonaws.com/", "fileName" : "Dark-Knight2.obj"},' + //best mesh is Dark-Knight2.obj - https://raw.githack.com/
-            '{"name" : "Cube", "path" : "https://cdn.jsdelivr.net/gh/Daliscar/3DModels/", "fileName" : "testCubeforSite.babylon"},' +
-            '{"name" : "house_Cube", "path" : "https://cdn.jsdelivr.net/gh/Daliscar/3DModels/", "fileName" : "Dark-Knight2.obj"},' +
-            '{"name" : "Cube", "path" : "https://cdn.jsdelivr.net/gh/Daliscar/3DModels/", "fileName" : "testCubeforSite.babylon"},' +
-            '{"name" : "house_Cube", "path" : "https://cdn.jsdelivr.net/gh/Daliscar/3DModels/", "fileName" : "Dark-Knight2.obj"}' +
+            '{"name" : "Cube", "path" : "https://snowmireawscdn.s3.eu-central-1.amazonaws.com/", "fileName" : "testGLBknight.glb"},' + //replace with obj
+            '{"name" : "house_Cube", "path" : "https://cdn.jsdelivr.net/gh/Daliscar/3DModels/", "fileName" : "Dark-Knight2.obj"},' + //not added to aws to preserve paid traffic
+            '{"name" : "Cube", "path" : "https://cdn.jsdelivr.net/gh/Daliscar/3DModels/", "fileName" : "testCubeforSite.babylon"},' + //not added to aws to preserve paid traffic
+            '{"name" : "house_Cube", "path" : "https://cdn.jsdelivr.net/gh/Daliscar/3DModels/", "fileName" : "Dark-Knight2.obj"}' + //not added to aws to preserve paid traffic
             ']}';
         const meshesJSON = JSON.parse(meshesTEXT);
         //#endregion
@@ -51,7 +52,6 @@
         }
         //#endregion
 
-        var currentPage = 1;
         //#region LOAD MODEL
         var loadMeshes = function (action) {
 
@@ -101,7 +101,7 @@
             }
 
 
-
+            return currentPage;
         };
         //#endregion
 
@@ -113,7 +113,7 @@
             }
             this._loadingDiv = document.createElement("div");
             this._loadingDiv.id = "customLoadingScreenDiv";
-            this._loadingDiv.innerHTML = "LOADING";
+            this._loadingDiv.innerHTML = "LOADING MESH";
             var customLoadingScreenCss = document.createElement('style');
             customLoadingScreenCss.type = 'text/css';
             customLoadingScreenCss.innerHTML = `

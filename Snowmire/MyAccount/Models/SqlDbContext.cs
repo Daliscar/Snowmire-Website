@@ -9,6 +9,7 @@ namespace MyAccount.Models
 {
     public class SqlDbContext : DbContext
     {
+        //schoolcontext aici? - nu merge momentan, crapa la publish loginul
         public SqlDbContext() : base("MyAccountContext")
         {
         }
