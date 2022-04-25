@@ -141,6 +141,7 @@
     <Compile Include="BusinessLayer\SchoolInitializer.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\APIDashboardController.cs" />
+    <Compile Include="Controllers\DownloadsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="BusinessLayer\SchoolContext.cs" />
@@ -183,6 +184,7 @@
     <Content Include="Scripts\babylon.js" />
     <Content Include="Scripts\babylonjs.loaders.min.js" />
     <Content Include="Scripts\behaviour\AccountInfoDisplay.js" />
+    <Content Include="Scripts\behaviour\RaccsDisplay.js" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -236,6 +238,7 @@
     <Content Include="Scripts\popper-utils.min.js" />
     <Content Include="Scripts\popper.js" />
     <Content Include="Scripts\popper.min.js" />
+    <Content Include="Scripts\Raccs.js" />
     <Content Include="Scripts\renderBabylonJS.js" />
     <Content Include="Scripts\src\index.js" />
     <Content Include="Scripts\src\methods\defaults.js" />
@@ -339,6 +342,8 @@
     <Content Include="Views\Account\Login.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Home\Partial\_AccountInfoPartial.cshtml" />
+    <Content Include="Views\Home\Partial\_RaccsPartial.cshtml" />
+    <Content Include="Views\Downloads\Client.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

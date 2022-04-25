@@ -27,7 +27,7 @@ namespace SnowmireMVC.Controllers
             return View();
         }
 
-        [CustomAuthorize("User")]
+        [CustomAuthorize("Admin", "SuperAdmin", "User")]
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
