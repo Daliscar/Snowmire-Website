@@ -123,23 +123,30 @@
   <ItemGroup>
     <Compile Include="Infrastructure\CustomAuthenticationFilter.cs" />
     <Compile Include="Infrastructure\CustomAuthorizeAttribute.cs" />
-    <Compile Include="Migrations\202203220434043_initial.cs" />
-    <Compile Include="Migrations\202203220434043_initial.designer.cs">
-      <DependentUpon>202203220434043_initial.cs</DependentUpon>
+    <Compile Include="Migrations\202309222049015_InitialMigration.cs" />
+    <Compile Include="Migrations\202309222049015_InitialMigration.designer.cs">
+      <DependentUpon>202309222049015_InitialMigration.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Role.cs" />
     <Compile Include="Models\SqlDbContext.cs" />
+    <Compile Include="Models\TestTable.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="web.config" />
+    <None Include="web.Debug.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+    <None Include="web.Release.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202203220434043_initial.resx">
-      <DependentUpon>202203220434043_initial.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202309222049015_InitialMigration.resx">
+      <DependentUpon>202309222049015_InitialMigration.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

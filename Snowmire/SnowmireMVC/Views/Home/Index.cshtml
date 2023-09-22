@@ -13,7 +13,7 @@
                     <p class="lead fw-normal text-white-50 mb-4">My name is Andrei, and I like video games and programming. I don't know yet what this website will hold but I am exploring new ideas and placing them here.</p>
                     <p class="lead fw-normal text-white-50 mb-4">P.S. the models displayed are lower quality than in reality, until I figure out how to link everything together.</p>
                     <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
-                        <a class="btn btn-secondary btn-lg px-4 me-sm-3" data-bs-html="true" title="<b>This is in development</b>" data-bs-placement="top" data-bs-toggle="tooltip" href="#!">Programming Experience</a>
+                        <a class="btn btn-secondary btn-lg px-4 me-sm-3" data-bs-html="true" title="<b>This is in development</b>" data-bs-placement="top" data-bs-toggle="tooltip" href="#!">Experience</a>
                         <a class="btn btn-outline-light btn-lg px-4" data-bs-html="true" title="<b>This is in development as well</b> ❤️" data-bs-placement="top" data-bs-toggle="tooltip" href="#!">Video Games</a>
                     </div>
                 </div>
@@ -21,20 +21,20 @@
                     <div class="card-header bg-light rounded-3 bg-opacity-50 fw-bolder text-center">Usernames and Passwords</div>
                     <div class="card-body">
                         <div class="row justify-content-center">
-         <!--BUTTON/MODAL--><div role="button" class="col-5 card mx-1 my-2 fw-bolder text-danger text-center bg-dark" data-bs-toggle="modal" data-bs-target="#accountInfoModal" onclick="InformationModal('SA')">
-                <!--TOOLTIP--><div data-bs-html="true" title="<p><b>Edit/Update Database</b></p><p><b>Can access all pages</b></p>" data-bs-placement="top" data-bs-toggle="tooltip">Super Admin</div>
+                            <!--BUTTON/MODAL--><div role="button" class="col-5 card mx-1 my-2 fw-bolder text-danger text-center bg-dark" data-bs-toggle="modal" data-bs-target="#accountInfoModal" onclick="InformationModal('SA')">
+                                <!--TOOLTIP--><div data-bs-html="true" title="<p><b>Edit/Update Database</b></p><p><b>Can access all pages</b></p>" data-bs-placement="top" data-bs-toggle="tooltip">Super Admin</div>
                             </div>
 
-         <!--BUTTON/MODAL--><div role="button" class="col-5 card mx-1 my-2 fw-bolder text-warning text-center bg-dark" data-bs-toggle="modal" data-bs-target="#accountInfoModal" onclick="InformationModal('A')">
-                <!--TOOLTIP--><div data-bs-html="true" title="<p><b>Edit/Update Database</b></p><p><b>Deleting restricted</b></p>" data-bs-placement="top" data-bs-toggle="tooltip">Admin</div>
+                            <!--BUTTON/MODAL--><div role="button" class="col-5 card mx-1 my-2 fw-bolder text-warning text-center bg-dark" data-bs-toggle="modal" data-bs-target="#accountInfoModal" onclick="InformationModal('A')">
+                                <!--TOOLTIP--><div data-bs-html="true" title="<p><b>Edit/Update Database</b></p><p><b>Deleting restricted</b></p>" data-bs-placement="top" data-bs-toggle="tooltip">Admin</div>
                             </div>
 
-         <!--BUTTON/MODAL--><div role="button" class="col-5 card mx-1 my-2 fw-bolder text-primary text-center bg-dark" data-bs-toggle="modal" data-bs-target="#accountInfoModal" onclick="InformationModal('SU')">
-                <!--TOOLTIP--><div data-bs-html="true" title="<p><b>No Database Access</b></p><p><b>Can access most pages(not /Home/about)</b></p>" data-bs-placement="bottom" data-bs-toggle="tooltip">Super User</div>
+                            <!--BUTTON/MODAL--><div role="button" class="col-5 card mx-1 my-2 fw-bolder text-primary text-center bg-dark" data-bs-toggle="modal" data-bs-target="#accountInfoModal" onclick="InformationModal('SU')">
+                                <!--TOOLTIP--><div data-bs-html="true" title="<p><b>No Database Access</b></p><p><b>Can access most pages(not /Home/about)</b></p>" data-bs-placement="bottom" data-bs-toggle="tooltip">Super User</div>
                             </div>
 
-         <!--BUTTON/MODAL--><div role="button" class="col-5 card mx-1 my-2 fw-bolder text-white-50 text-center bg-dark" data-bs-toggle="modal" data-bs-target="#accountInfoModal" onclick="InformationModal('U')">
-                <!--TOOLTIP--><div data-bs-html="true" title="<p><b>Can access Contact Me page</b></p>" data-bs-placement="bottom" data-bs-toggle="tooltip">User</div>
+                            <!--BUTTON/MODAL--><div role="button" class="col-5 card mx-1 my-2 fw-bolder text-white-50 text-center bg-dark" data-bs-toggle="modal" data-bs-target="#accountInfoModal" onclick="InformationModal('U')">
+                                <!--TOOLTIP--><div data-bs-html="true" title="<p><b>Can access Contact Me page</b></p>" data-bs-placement="bottom" data-bs-toggle="tooltip">User</div>
                             </div>
                         </div>
                     </div>
@@ -46,3 +46,10 @@
     </div>
 </header>
 @Html.Partial("_WorkInProgress")
+
+<div class="text-center">
+    <video class="rounded-3" width="1280" height="720" controls>
+        <source src="https://snowmireawscdn.s3.eu-central-1.amazonaws.com/Test1Recording.mkv" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
