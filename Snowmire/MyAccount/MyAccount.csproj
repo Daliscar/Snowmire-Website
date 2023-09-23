@@ -127,6 +127,10 @@
     <Compile Include="Migrations\202309222049015_InitialMigration.designer.cs">
       <DependentUpon>202309222049015_InitialMigration.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202309230758113_email.cs" />
+    <Compile Include="Migrations\202309230758113_email.designer.cs">
+      <DependentUpon>202309230758113_email.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Role.cs" />
     <Compile Include="Models\SqlDbContext.cs" />
@@ -147,6 +151,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202309222049015_InitialMigration.resx">
       <DependentUpon>202309222049015_InitialMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202309230758113_email.resx">
+      <DependentUpon>202309230758113_email.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
