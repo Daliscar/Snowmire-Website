@@ -12,19 +12,23 @@ using System.Web.WebPages;
 using Microsoft.Ajax.Utilities;
 using MyAccount.Models;
 using SnowmireMVC.Enums;
+using System.Web.UI;
+using System.Web.Helpers;
+using System.Security.Cryptography;
+using System.Text;
 
 namespace SnowmireMVC.Controllers
 {
-
-
     public class MobaController : Controller
     {
+        #region POST
+
+        #region Register
         [HttpPost]
         public int Register(string username, string password, string email)
         {
-
-
-            if(Request.Headers["sEcUrItY"] != "sEcUrItY")
+            
+            if (Request.Headers["sEcUrItY"] != "sEcUrItY")
             {
                 return (int)HttpStatusCodes.NoAuthority;
             }
@@ -41,25 +45,33 @@ namespace SnowmireMVC.Controllers
                     {
                         return (int)HttpStatusCodes.InvalidEmail;
                     }
-                    
-                    TestTable testTable = new TestTable()
+
+                    //Hash+Salt Pass
+                    string salt = Crypto.GenerateSalt(16);
+                    string pass_Salted = salt + password;
+                    string hash = HashPassword(pass_Salted);
+
+                    UserGameInfo userGameInfo = new UserGameInfo()
+                    {
+                        PlayerName = String.Empty
+                    };
+
+                    UserInfo UserInfo = new UserInfo()
                     {
                         Username = username,
-                        Password = password,
-                        Email = email
+                        Hash = hash,
+                        Salt = salt,
+                        Email = email,
+                        userGameInfo = userGameInfo
                     };
 
                     using (var context = new SqlDbContext())
                     {
-
-                        // Change this please
-                        TestTable isDuplicate = context.TestTable.Where(u => u.Username == username).FirstOrDefault();
-
-                        if (isDuplicate != null)
+                        if (context.UserInfo.Where(u => u.Username == username).FirstOrDefault() != null)
                         {
                             return (int)HttpStatusCodes.UsernameTaken;
                         }
-                        context.TestTable.Add(testTable);
+                        context.UserInfo.Add(UserInfo);
                         context.SaveChanges();
                     }
                     return (int)HttpStatusCodes.AccountCreated;
@@ -72,19 +84,144 @@ namespace SnowmireMVC.Controllers
             }
             return (int)HttpStatusCodes.UnexpectedError;
         }
+        #endregion
 
+        #region Login
         [HttpPost]
-        public string Login()
+        public string Login(string username, string password)
         {
-            string token = Guid.NewGuid().ToString();
-            string response = $"{{\r\n  \"token\": \"{token}\",\r\n  \"response\": \"connected\"\r\n}}";
 
             if (Request.Headers["sEcUrItY"] != "sEcUrItY")
             {
-                return "No Authority!";
+                return CreateResponse("No Authority!", String.Empty);
             }
-            return response;
-        }
 
+
+            using (var context = new SqlDbContext())
+            {
+                UserInfo user = context.UserInfo.Where(x => x.Username == username).FirstOrDefault();
+
+                if (user != null)
+                {
+                    if (user.Hash == HashPassword(user.Salt + password))
+                    {
+
+                        string token = Guid.NewGuid().ToString();
+                        user.Token = token;
+                        user.LastHeartbeatTime = DateTime.UtcNow;
+                        context.SaveChanges();
+
+                        if (user.userGameInfo.PlayerName.IsEmpty())
+                        {
+                            return CreateResponse("Connected-NameChange", token);
+                        };
+                        return CreateResponse("Connected", token);
+                        
+
+                    }
+                    else
+                    {
+                        return CreateResponse("Invalid Password", String.Empty);
+                    }
+
+                }
+                return CreateResponse("Invalid Username", String.Empty);
+            }
+
+        }
+        #endregion
+
+        #region SetPlayerName
+        [HttpPost]
+        public string SetPlayerName(string token, string newPlayerName)
+        {
+            if (Request.Headers["sEcUrItY"] != "sEcUrItY")
+            {
+                return CreateResponse("No Authority!", String.Empty);
+            }
+
+
+            using (var context = new SqlDbContext())
+            {
+                UserInfo user = context.UserInfo.Where(x => x.Token == token).FirstOrDefault();
+
+                user.userGameInfo.PlayerName = newPlayerName;
+                context.SaveChanges();
+                return "Name was set";
+            }
+        }
+        #endregion
+
+        #endregion
+
+        #region GET
+        #region HeartBeat
+[HttpGet]
+        public void HeartBeat(string token)
+        {
+            if (Request.Headers["sEcUrItY"] != "sEcUrItY")
+            {
+                return;
+            }
+
+            using (var context = new SqlDbContext())
+            {
+                UserInfo user = context.UserInfo.Where(x => x.Token == token).FirstOrDefault();
+
+                
+            }
+        }
+        #endregion
+
+        #region GetPlayerDataByToken
+        public string GetPlayerDataByToken(string token)
+        {
+            if (Request.Headers["sEcUrItY"] != "sEcUrItY")
+            {
+                return CreateResponse("No Authority!", String.Empty);
+            }
+
+
+            using (var context = new SqlDbContext())
+            {
+                UserInfo user = context.UserInfo.Where(x => x.Token == token).FirstOrDefault();
+
+                UserGameInfo userModel = new UserGameInfo()
+                {
+                    PlayerName = user.userGameInfo.PlayerName,
+                    Coins = user.userGameInfo.Coins,
+                    Experience = user.userGameInfo.Experience,
+                    Characters = user.userGameInfo.Characters
+
+                };
+
+                string xy = Newtonsoft.Json.JsonConvert.SerializeObject(userModel);
+
+                return xy;
+            }
+        }
+        #endregion
+        #endregion
+
+        #region Helpers
+        #region CreateResponse
+        private string CreateResponse(string status, string token)
+        {
+            return $"{{\r\n  \"token\": \"{token}\",\r\n  \"response\": \"{status}\"\r\n}}";
+        }
+        #endregion
+
+        #region HashPassword
+        public string HashPassword(string cryptoPass)
+        {
+            var SHA = SHA256.Create();
+
+            var asByteArray = Encoding.Default.GetBytes(cryptoPass);
+            var hashedPassword = SHA.ComputeHash(asByteArray);
+            string storedPassword = Convert.ToBase64String(hashedPassword);
+            return storedPassword;
+        }
+        #endregion
+        #endregion
     }
 }

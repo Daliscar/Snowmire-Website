@@ -131,10 +131,31 @@
     <Compile Include="Migrations\202309230758113_email.designer.cs">
       <DependentUpon>202309230758113_email.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202309231437410_add-Token.cs" />
+    <Compile Include="Migrations\202309231437410_add-Token.designer.cs">
+      <DependentUpon>202309231437410_add-Token.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202309231524598_Add-Heartbeat.cs" />
+    <Compile Include="Migrations\202309231524598_Add-Heartbeat.designer.cs">
+      <DependentUpon>202309231524598_Add-Heartbeat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202309231530455_Heartbeat-Nullable.cs" />
+    <Compile Include="Migrations\202309231530455_Heartbeat-Nullable.designer.cs">
+      <DependentUpon>202309231530455_Heartbeat-Nullable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202309231746024_UserGameInfo.cs" />
+    <Compile Include="Migrations\202309231746024_UserGameInfo.designer.cs">
+      <DependentUpon>202309231746024_UserGameInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202309240951303_TestTablesRename.cs" />
+    <Compile Include="Migrations\202309240951303_TestTablesRename.designer.cs">
+      <DependentUpon>202309240951303_TestTablesRename.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Role.cs" />
     <Compile Include="Models\SqlDbContext.cs" />
-    <Compile Include="Models\TestTable.cs" />
+    <Compile Include="Models\UserGameInfo.cs" />
+    <Compile Include="Models\UserInfo.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -154,6 +175,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202309230758113_email.resx">
       <DependentUpon>202309230758113_email.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202309231437410_add-Token.resx">
+      <DependentUpon>202309231437410_add-Token.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202309231524598_Add-Heartbeat.resx">
+      <DependentUpon>202309231524598_Add-Heartbeat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202309231530455_Heartbeat-Nullable.resx">
+      <DependentUpon>202309231530455_Heartbeat-Nullable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202309231746024_UserGameInfo.resx">
+      <DependentUpon>202309231746024_UserGameInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202309240951303_TestTablesRename.resx">
+      <DependentUpon>202309240951303_TestTablesRename.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -15,6 +15,6 @@ namespace MyAccount.Models
         }
         public DbSet<User> Users { get; set; }
         public DbSet<Role> Roles { get; set; }
-        public DbSet<TestTable> TestTable { get; set; }
+        public DbSet<UserInfo> UserInfo { get; set; }
     }
 }
