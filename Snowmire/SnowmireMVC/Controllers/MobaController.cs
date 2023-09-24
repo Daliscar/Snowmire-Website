@@ -16,6 +16,7 @@ using System.Web.UI;
 using System.Web.Helpers;
 using System.Security.Cryptography;
 using System.Text;
+using SnowmireMVC.ViewModels;
 
 namespace SnowmireMVC.Controllers
 {
@@ -186,18 +187,38 @@ namespace SnowmireMVC.Controllers
             {
                 UserInfo user = context.UserInfo.Where(x => x.Token == token).FirstOrDefault();
 
-                UserGameInfo userModel = new UserGameInfo()
+                if (user != null)
                 {
-                    PlayerName = user.userGameInfo.PlayerName,
-                    Coins = user.userGameInfo.Coins,
-                    Experience = user.userGameInfo.Experience,
-                    Characters = user.userGameInfo.Characters
+                    UserGameInfoViewModel userGameInfoViewModel = new UserGameInfoViewModel()
+                    {
+                        PlayerName = user.userGameInfo.PlayerName,
+                        Coins = user.userGameInfo.Coins,
+                        Experience = user.userGameInfo.Experience,
+                        Characters = user.userGameInfo.Characters
 
-                };
+                    };
 
-                string xy = Newtonsoft.Json.JsonConvert.SerializeObject(userModel);
+                    string modelAsJSON = Newtonsoft.Json.JsonConvert.SerializeObject(userGameInfoViewModel);
 
-                return xy;
+                    //"{\"PlayerName\":\"1212311\",\"Coins\":0,\"Experience\":0,\"Characters\":\"000\"}"
+
+                    //    "{\r\n  \"PlayerName\":\"1212311\",\"Coins\":0,\"Experience\":0,\"Characters\":\"000\"\r\n}"
+
+                    //    {"PlayerName":"1212311","Coins":0,"Experience":0,"Characters":"000"}
+
+                    //modelAsJSON = modelAsJSON.Remove(0,1);
+
+                    //modelAsJSON = modelAsJSON.Remove(modelAsJSON.Length - 1, 1);
+
+                    //modelAsJSON = "{\r\n  " + modelAsJSON + "\r\n}";
+
+
+                    return modelAsJSON;
+                }
+
+
+
+                return "{}";
             }
         }
         #endregion
